@@ -1,0 +1,32 @@
+{
+  "name": "dengi-i-dogovory",
+  "version": "1.0.0",
+  "description": "Набор про деньги и риски: юнит-экономика и аудит договора по праву РФ.",
+  "author": {
+    "name": "NEOVIDA",
+    "url": "https://neovida.ai"
+  },
+  "homepage": "https://neovida.ai",
+  "repository": "https://github.com/albertvaleev230985/neovida-plugins",
+  "keywords": [
+    "neovida",
+    "business",
+    "ru"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Деньги и договоры",
+    "shortDescription": "Юнит-экономика и аудит договора по праву РФ",
+    "longDescription": "Два навыка про деньги и риски: юнит-экономика с вердиктом «сходится или нет» и аудит договора по праву РФ со светофором рисков, правками и вопросами юристу.",
+    "developerName": "NEOVIDA · Альберт Валеев",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://neovida.ai",
+    "defaultPrompt": [
+      "Посчитай юнит-экономику: [продукт, цена, расходы].",
+      "Проверь этот договор, я исполнитель: [вставьте текст]."
+    ]
+  }
+}

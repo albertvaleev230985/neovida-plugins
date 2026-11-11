@@ -1,0 +1,33 @@
+{
+  "name": "sobstvennik",
+  "version": "1.0.0",
+  "description": "Набор собственника: разбор недели, делегирование, пре-мортем проекта, трудный разговор.",
+  "author": {
+    "name": "NEOVIDA",
+    "url": "https://neovida.ai"
+  },
+  "homepage": "https://neovida.ai",
+  "repository": "https://github.com/albertvaleev230985/neovida-plugins",
+  "keywords": [
+    "neovida",
+    "business",
+    "ru"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Собственник",
+    "shortDescription": "Разбор недели, делегирование, риски, трудный разговор",
+    "longDescription": "Четыре навыка собственника и руководителя: еженедельный разбор с метриками и тремя приоритетами, матрица делегирования на 10 часов в неделю, пре-мортем проекта до старта и подготовка к трудному разговору.",
+    "developerName": "NEOVIDA · Альберт Валеев",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://neovida.ai",
+    "defaultPrompt": [
+      "Проведи со мной еженедельный разбор.",
+      "Разгрузи меня: составь матрицу делегирования.",
+      "Сделай пре-мортем проекта: [опишите проект]."
+    ]
+  }
+}

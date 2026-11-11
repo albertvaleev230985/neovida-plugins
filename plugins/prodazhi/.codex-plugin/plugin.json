@@ -1,0 +1,33 @@
+{
+  "name": "prodazhi",
+  "version": "1.0.0",
+  "description": "Набор отдела продаж: работа с возражениями, аудит воронки, позиционирование, распаковка эксперта.",
+  "author": {
+    "name": "NEOVIDA",
+    "url": "https://neovida.ai"
+  },
+  "homepage": "https://neovida.ai",
+  "repository": "https://github.com/albertvaleev230985/neovida-plugins",
+  "keywords": [
+    "neovida",
+    "business",
+    "ru"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Продажи",
+    "shortDescription": "Возражения, воронка, позиционирование, распаковка эксперта",
+    "longDescription": "Четыре навыка отдела продаж и маркетинга: банк возражений со скриптами, аудит воронки с поиском узкого места, позиционирование и отстройка от конкурентов, распаковка эксперта через интервью.",
+    "developerName": "NEOVIDA · Альберт Валеев",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://neovida.ai",
+    "defaultPrompt": [
+      "Собери банк возражений для моего продукта: [продукт].",
+      "Проведи аудит моей воронки продаж.",
+      "Помоги с позиционированием: [что продаём и кому]."
+    ]
+  }
+}
